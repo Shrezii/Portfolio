@@ -84,23 +84,23 @@ section{
     text-align: left;
     padding: 5px;
 }
-.btn{
+.btn {
     margin-left: 50px;
     border: 2px solid cyan;
     border-radius: 30px;
     padding: 10px 30px;
     cursor: pointer;
-    background-color: cyan;
+    background-color: rgb(30, 227, 249);
     color: white;
     position: relative;
     font-weight: bold;
     transition: 0.3s;
-    box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan;
+    box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 20px cyan;
     overflow: hidden;
     margin-top: 15px;
 }
 .btn:hover {
-    background-color: cyan;
+    background-color: #68ebfc; /* Slightly darker cyan */
     color: white;
-    box-shadow: 0 0 20px cyan, 0 0 40px cyan, 0 0 60px cyan;
+    box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan; /* Reduced brightness */
 }
