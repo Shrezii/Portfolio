@@ -130,7 +130,7 @@ section {
 }
 
 .project-item {
-    background: linear-gradient(to bottom, #000, #1e1e1e, #3a0ca3, #4361ee, #f308fb);
+    background-color: linear-gradient(to bottom, #000, #1e1e1e, #3a0ca3, #4361ee, #f308fb);
     padding: 5rem;
     border-radius: 8px;
     flex: 1 1 200px;
