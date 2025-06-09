@@ -34,6 +34,7 @@ nav {
 
 .logo {
     background: linear-gradient(to right, #FF7777, #FF1D69, #5A3FF2);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -103,4 +104,32 @@ section{
     background-color: #68ebfc; /* Slightly darker cyan */
     color: white;
     box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan; /* Reduced brightness */
+}
+.heading-container{
+    text-align: center;
+
+}
+
+.p-heading:hover {
+    color: #FF1D69;
+    cursor: pointer;
+    font-weight: bold;
+    transition:0.3s;
+}
+
+.project-list {
+    display: flex;              /* Enables flexbox layout */
+    gap: 20px;                  /* Adds spacing between items */
+    color:#000;            /* Allows wrapping if too wide for the container */
+}
+
+.project-item {
+    background-color: linear-gradient(to bottom, #000, #1e1e1e, #3a0ca3, #4361ee, #f308fb);
+    padding: 5rem;              /* Optional: adds some padding */
+    border-radius: 8px;         /* Optional: rounds corners */
+    flex: 1 1 200px;
+    margin-top:50px;            /* Optional: items grow/shrink with a minimum width */
+    text-align: center;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.2);
+    
 }
